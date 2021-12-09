@@ -20,7 +20,7 @@ a {
 
 .Footer{
   display: flex;
-  padding:10px;
+  padding: .6rem;
   font-weight: bold;
   background-color: rgb(12 17 25 / 76%);
 }
@@ -51,4 +51,11 @@ a {
   margin: auto;
   padding: 5px;
   width:50px;
+}
+
+@media all and (min-width: 1000px) {
+  .Footer {
+    padding-left: 15rem;
+    padding-right: 15rem;
+  }
 }
